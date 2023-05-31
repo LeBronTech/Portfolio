@@ -11262,9 +11262,9 @@ body.template-color-1 {
 .logo a img {
   transition: 0.3s;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1800px) {
   .logo a img {
-    max-height: 54px;
+    max-height: 184px;
   }
 }
 
