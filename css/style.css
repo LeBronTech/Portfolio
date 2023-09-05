@@ -122,7 +122,21 @@ html {
   overflow-y: auto;
   scroll-behavior: smooth;
 }
-
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #ff1c1c4f;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #ff014f;
+}
+::-webkit-scrollbar-thumb-track{
+  background-color: #373636;
+}
+::-webkit-scrollbar-thumb-track:hover{
+  background-color: #373636;
+}
 body {
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
@@ -13908,6 +13922,12 @@ figcaption {
   color: var(--color-primary);
   stroke-width: 1 !important;
 }
+.inner .icon svg {
+  width: 50px;
+  height: auto;
+  color: var(--color-primary);
+  stroke-width: 1 !important;
+}
 .rn-service .inner .content .title {
   font-family: var(--color-primary);
   font-weight: 500;
@@ -16263,13 +16283,14 @@ span.sr-only {
 .contact-about-area {
   padding: 30px;
   box-shadow: var(--shadow-1);
-  border-radius: 10px;
+  border-radius: 80px;
   background-color: #212428;
   height: 100%;
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .contact-about-area {
-    height: auto;
+    height: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -16289,6 +16310,7 @@ span.sr-only {
   margin-bottom: 28px;
   overflow: hidden;
   border-radius: 10px;
+ 
 }
 .contact-about-area .thumbnail img {
   width: 100%;
@@ -17585,7 +17607,7 @@ span.sr-only {
 
 .backto-top svg {
   font-size: 14px !important;
-  color: var(--color-light);
+  color: #ff014f;
   width: 27px;
   height: 27px;
   position: relative;
@@ -19705,3 +19727,4 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-white) !important;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+/*# start swiper*/
