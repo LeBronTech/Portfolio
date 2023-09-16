@@ -688,4 +688,8 @@
     $( window ).on( 'elementor/frontend/init', change_elementor_options );
 
 }());
+function botaoHandler(event){
+    event.preventDefault()
+    console.log("nav-link")
+};
 

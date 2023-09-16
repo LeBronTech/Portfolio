@@ -14206,11 +14206,11 @@ float:left;
   
   }.mainmenu-nav .primary-menu li  ul{
     position:absolute;
-    top:25px;
-    left:-45px;
+    top:30px;
+    left:-59px;
     background-color: #23272bbe;
     box-shadow: var(--shadow-1);
-    border-radius: 6px;
+    border-radius: 16px;
     transition: 1s;
     text-transform: uppercase;
     display: flex;
