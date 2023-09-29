@@ -6429,12 +6429,7 @@ textarea:active {
   border-color: var(--color-primary);
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+
 
 input {
   height: 40px;
@@ -7247,7 +7242,7 @@ Custom Row
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
 }
 
 input::-webkit-input-placeholder,
@@ -7265,7 +7260,7 @@ textarea::-moz-placeholder {
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 /*=============================
@@ -11903,7 +11898,7 @@ body.template-color-1 {
   text-transform: inherit;
 }
 .mainmenu-nav .primary-menu li .submenu li a:hover {
-  color: #8360c3;proge
+  color: #8360c3;
   background: rgba(6, 6, 6, 0.7019607843);
 }
 .mainmenu-nav .primary-menu li:hover .submenu {
@@ -12554,9 +12549,6 @@ figcaption {
   font-family: 'Oxstars';
   src:url('Oxstars.ttf')
  
- font-weight: normal;
-  font-style: normal;
-  font-display: troca;
  }
 .slide .content .inner .title {
   color: var(--color-lightn);
@@ -14115,7 +14107,7 @@ button.close {
   padding: 0;
   background-color: transparent;
   border: 0;
-  -webkit-appearance: none;
+  
 }
 
 .close {
@@ -14254,11 +14246,14 @@ div#featured-project-carousel {
 .section-title span.subtitle{
   width: 100vw;
   height: 100vh;
+  background: -webkit-linear-gradient(-45deg, #f702ff, #23a6d5, #23d5ab);
   background: linear-gradient(-45deg, #f702ff, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: Gradient 8s linear infinite alternate;
+   
+  background-clip: text; 
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
   
 }
 @keyframes Gradient {
@@ -14271,13 +14266,9 @@ div#featured-project-carousel {
   100% {
       background-position: 0% 50%
   }
-}{
-  color: var(--color-subtitle);
-  letter-spacing: 1px;
-  display: block;
-  line-height: 14px;
-  margin-bottom: 10px;
 }
+
+
 @media only screen and (max-width: 575px) {
   .section-title span.subtitle {
     text-align: center;
@@ -14371,7 +14362,7 @@ div#featured-project-carousel {
   }
 }
 .rn-nav-list .nav-item .nav-link:hover, .rn-nav-list .nav-item .nav-link.active {
-  color: #ff014f;
+  color: var(--color-primary);
   background-color: transparent;
   border-color: transparent;
   border: 0 none;
@@ -14380,7 +14371,7 @@ div#featured-project-carousel {
 }
 
 .personal-experience-inner .content span.subtitle {
-  color: var(--color-subtitle);
+  color: var(--color-primary);
   font-size: 14px;
   letter-spacing: 2px;
   font-weight: 500;
