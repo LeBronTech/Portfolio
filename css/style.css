@@ -18008,7 +18008,7 @@ Rn Slick Dots Style
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color:var(--color-primary);
   text-align: center;
   opacity: 1;
   transition: opacity 0.15s ease;
