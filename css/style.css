@@ -40,7 +40,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #ff014f;
+  --color-primary: #8360c3;
   --color-secondary: #f4f5f6;
   --color-tertiary: #0d1013;
   --color-gray: #f6f6f6;
@@ -126,10 +126,10 @@ html {
   width: 15px;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #ff1c1c4f;
+  background-color: #cd62ff4f;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background-color: #ff014f;
+  background-color: rebeccapurple;
 }
 ::-webkit-scrollbar-thumb-track{
   background-color: #373636;
@@ -137,14 +137,7 @@ html {
 ::-webkit-scrollbar-thumb-track:hover{
   background-color: #373636;
 }
-@font-face {
-  fonte-família: FonteLogo;
-  src:url('Oxstars Regular.ttf')
- 
- font-weight: normal;
-  font-style: normal;
-  font-display: troca;
- }
+
 body {
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
@@ -210,13 +203,13 @@ h6,
   word-break: break-word;
   font-family: var(--font-secondary);
   line-height: 1.4074;
-  color: var(--color-heading);
+  color: #c4cfde;
 }
 
 h1,
 .h1 {
   font-size: var(--h1);
-  line-height: 1.19;
+  line-height: 1.59;
   font-weight: 700;
 }
 
@@ -236,6 +229,7 @@ h4,
 .h4 {
   font-size: var(--h4);
   line-height: 1.25;
+  font-family: var(--font-primary);
 }
 
 h5,
@@ -6107,7 +6101,7 @@ a:focus,
 a:active {
   text-decoration: none;
   outline: none;
-  color: var(--color-primary);
+  color: rgb(247, 37, 247);
 }
 
 a:focus {
@@ -12153,6 +12147,7 @@ button.rn-btn {
   font-size: 14px;
   font-weight: 500;
   border: 0 none;
+  margin: 15px;
 }
 a.rn-btn::before,
 button.rn-btn::before {
@@ -12575,12 +12570,15 @@ figcaption {
 }
 
 .section-title span.subtitle {
-  color: #ff014f;
+  color: #ac7e8c;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 14px;
   font-family: var(--font-secondary);
   font-weight: 500;
+  text-align: center !important;
+  width: 100vw;
+  height: 100vh;
 }
 .section-title h2.title {
   font-size: 60px;
@@ -12589,6 +12587,7 @@ figcaption {
   color: var(--color-lightn);
   margin-top: 15px;
   margin-bottom: 0;
+  text-align: center !important;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title h2.title {
@@ -12718,6 +12717,14 @@ figcaption {
   font-display: troca;
  }
 .slide .content .inner .title {
+  color: var(--color-lightn);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  margin-bottom: 22px;
+  font-family:var(--font-primary) ;
+}
+.slide .content .inner .title .span {
   color: #ffffff;
   font-weight: 700;
   font-size: 60px;
@@ -12752,7 +12759,7 @@ figcaption {
 .slide .content .inner .title span {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ff01ff, #6780b3, #2ebf91);
   background-size: 400% 400%;
   animation: Gradient 8s linear infinite alternate;
   -webkit-background-clip: text;
@@ -12804,6 +12811,7 @@ figcaption {
   color: var(--color-lightn);
   padding-right: 16%;
   opacity: 0.9;
+  font-family:'Montserrat';
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slide .content .inner .description {
@@ -13914,6 +13922,7 @@ figcaption {
   position: relative;
   z-index: 1;
   height: 100%;
+  font-family: var(--font-primary);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-service {
@@ -13954,11 +13963,11 @@ figcaption {
 .inner .icon svg {
   width: 50px;
   height: auto;
-  color: var(--color-primary);
+  color: rebeccapurple;
   stroke-width: 1 !important;
 }
 .rn-service .inner .content .title {
-  font-family: var(--color-primary);
+  font-family: var(--font-primary);
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
@@ -14230,7 +14239,7 @@ float:left;
 
   .mainmenu-nav .primary-menu li a:hover{
   
-  color:#ff014f;
+  color:#8360c3;
   
   
   }.mainmenu-nav .primary-menu li  ul{
@@ -14403,11 +14412,12 @@ div#featured-project-carousel {
 .section-title span.subtitle{
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #f702ff, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: Gradient 8s linear infinite alternate;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 @keyframes Gradient {
   0% {
@@ -17699,7 +17709,7 @@ span.sr-only {
 
 .backto-top svg {
   font-size: 14px !important;
-  color: #ff014f;
+  color: rebeccapurple;
   width: 27px;
   height: 27px;
   position: relative;
