@@ -11253,7 +11253,7 @@ body.template-color-1 {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  margin: -24px;
+  margin: -14px;
   padding: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -11903,7 +11903,7 @@ body.template-color-1 {
   text-transform: inherit;
 }
 .mainmenu-nav .primary-menu li .submenu li a:hover {
-  color: var(--color-primary);
+  color: #8360c3;proge
   background: rgba(6, 6, 6, 0.7019607843);
 }
 .mainmenu-nav .primary-menu li:hover .submenu {
@@ -14802,7 +14802,7 @@ div#featured-project-carousel {
   position: relative;
   border-radius: 14px;
   background: #f02981;
-  background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+  background: linear-gradient(145deg, #8360c3 0%, #2ebf91 100%);
 }
 .progress-charts .progress .progress-bar span.percent-label {
   position: absolute;
