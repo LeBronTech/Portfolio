@@ -1,1 +1,1 @@
-<img src="/imagens/
+<img src="src/assets/cap1.png">
