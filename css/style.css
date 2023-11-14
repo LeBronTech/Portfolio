@@ -12564,7 +12564,7 @@ figcaption {
   font-size: 60px;
   line-height: 75px;
   margin-bottom: 22px;
-  font-family: 'Oxstars';
+  font-family: "Oxstars","Poppins";
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slide .content .inner .title {
