@@ -12547,7 +12547,12 @@ figcaption {
 }
 @font-face {
   font-family: "Oxstars";
-  src:url("Oxstars.ttf")
+  src:url("Oxstars.ttf");
+ 
+ }
+ @font-face {
+  font-family: "Oxstarss";
+  src:url("/fonts/Oxstars.otf");
  
  }
 .slide .content .inner .title {
