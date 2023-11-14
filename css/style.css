@@ -12547,7 +12547,13 @@ figcaption {
 }
 @font-face {
   font-family: "Oxstars";
-  src:url("Oxstars.ttf");
+  src:url('Oxstars.ttf'),
+  url('Oxstars-Regular.woff') format('woff'),
+        url('Oxstars-Regular.woff2') format('woff2'),
+        url('Oxstars-Regular.eot'),
+        url('Oxstars-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Oxstars-Regular.otf') format('truetype');
+
  
  }
  @font-face {
@@ -12569,7 +12575,7 @@ figcaption {
   font-size: 60px;
   line-height: 75px;
   margin-bottom: 22px;
-  font-family: "Oxstars","Poppins";
+  font-family: 'Oxstars','Oxstarss','Poppins';
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slide .content .inner .title {
